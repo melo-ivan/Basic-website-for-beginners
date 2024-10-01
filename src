@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+    Lang serve para auxiliar o navegador no reconhecimento do idioma do site
+-->
+<html lang="pt-br">
+    <!--
+        Meta charset utf8 indica ao navegador que utilizaremos caracteres
+       especiais em nosso site
+    -->
+    <meta charset="utf8">
+    <!--
+     head é o título da barra de navegação   
+    -->
+    <head>
+        <title>
+            CEDUP - Desenvolvimento Web
+        </title>
+      link rel="preconnect" href="https://fonts.googleapis.com<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"><link href= "style.css" rel="stylesheet">
+       </head>
+    <!--header é o cabeçalho-->
+  <body>
+     <header>
+<h1>CEDUP - JL</h1>
+       
+        <nav><ul>
+    <!-- Itens da lista -->
+    <li class="ativo"><a href="index.html">Início</a></li>    
+    <li><a onclick="abrirPainel()">Sobre</a></li>
+        </ul>
+        </nav>
+       
+       </header>
+    <main>
+      
+      <section id="sec01">
+      <div>
+        <h2>
+          Seja programador<br>
+Full Stack<br>
+CEDUP-JL
+        </h2>
+        <p>
+          Front End + Back End
+Aprenda a fazer sites e sistemas web usando
+(HTML, CSS, JavaScript, php e muito mais)
+        </p>
+        
+         
+        <a href=""><button><b>O FUTURO ESTÁ EM SUAS MÃOS</b></button></a>
+        
+        
+        
+        
+        </div>
+        
+        <div>
+        <img src="https://cdn.glitch.global/93e7e4e4-32c4-4fa8-a97f-08d79e130f44/003.jpg?v=1649789965468"width="100%">
+        </div>
+      </section>
+      <section id="sec02">
+      <div>
+        <img src="https://cdn.glitch.me/b7380fc9-6bcd-409f-8f84-33d814223280%2FProg07.jpg?v=1634565843689">
+        </div>
+        <div>
+        <h2>
+          Metodologias de Trabalho
+          </h2>
+          <p>
+            - Aprenda a trabalhar em um ambiente colaborativo nas diferentes etapas de desenvolvimento web
+          </p>
+          <p>
+            - Mantenha um registro claro e eficiente do progresso de sua aplicação por meio das metodologias ágeis e saia do curso com um site que será seu portfólio
+          </p>
+        </div>
+      </section>
+      <section id="sec03">
+      <div>
+        <h2>
+          WEB DEV - Um Guia indispensável
+        </h2>
+        <p>
+          "Aqui você encontra conteúdos indispensáveis para todo iniciante
+na arte de Desenvolvimento Web"
+        </p>
+        <p>
+          Clique AQUI e baixe o seu GRATUITAMENTE.
+        </p>
+        </div>
+        <div>
+        <img src="https://cdn.glitch.me/2f7df976-bb96-429b-a324-3fdabdca5e03%2FCapa%20Guia.bmp?v=1634130993467">
+        </div>
+      </section>
+      <section id="sec04">
+      <div>
+        <iframe width="580" height="320" src="https://www.youtube.com/embed/i6BKjw2Z3es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+        <h2>
+          Aula de Desenvolvimento Web
+          </h2>
+          <p>
+            Aqui você pode ver um pouco do trabalho realizado no segundo
+            semestre de 2021 com a generosa participação de alunos das turmas 1 e 2 
+            de Desenvolvimento Web no <b>CEDUP-JL</b>
+          </p>
+        </div>
+      </section>
+      <section id="sec05">
+     <div>
+     </div>
+        
+        <div>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.823441038668!2d-48.547996384940184!3d-27.599002982836936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273830f6626e05%3A0xae3a5642c5bcca8f!2sAv.%20Mauro%20Ramos%2C%20275%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088020-301!5e0!3m2!1spt-BR!2sbr!4v1649784635601!5m2!1spt-BR!2sbr" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+        
+       <div>
+     </div>
+        
+      </section>
+    </main>
+     <!-- Rodapé -->
+             <footer>
+             <span>2022 - Todos os direitos reservados &#169; </span>
+             </footer>
+  </body>
+   
+  
+   <div id="painel" class="fechado">
+                <div class="conteudo">
+                  <a class="fechar" onclick= "fecharPainel()"> &lt;Fechar</a>
+                  <h2>Sobre mim</h2> 
+                    <div class="perfil">
+                      <img src="xxxxxxxx" alt="ivan.perfil">
+                  
+                      
+                      
+                      <p>
+                      <b>Meu nome</b>
+                      </p>
+                      <p>
+                     Coloque aqui uma breve descriçao sobre sua experiencia profissional ou academica
+                        </p>
+                      <p>
+                       Coloque aqui uma breve descriçao sobre sua experiencia profissional ou academica
+                      </p><br><br>
+                      
+                      
+                      <div class="social">
+                        <a href= ""></a><img src="">
+                        <a href= ""></a><img src="">
+                        <a href= ""></a><img src="">
+                        
+                        <a href="#" target="_blank"><img src="#"></a>
+                        <a href="#" target="_blank"><img src="#"></a>
+                        <a href="#" target="_blank"><img src="#"></a>
+                      </div>
+                    </div>
+                  
+                  
+                   </div>
+              </div>
+              
+              <script src="script.js"></script>
+             </body>
+             </html>
+  
+
+
+
+
+
+
+</html>
